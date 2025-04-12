@@ -7,6 +7,6 @@
 # Scanner-
 # Simple Network Port Scanner in Python 
 # This script scans a given IP address for open ports # 
-It uses the socket library to connect to each port and checks the return value 
-# If the port is open, it prints the port number # 
-
+To scan a single IP address:
+bash./network_scanner.py <IP_ADDRESS> - To scan a range of IP addresses (e.g.,192.168.1.1-100):
+bash./network_scanner.py 192.168.1.1-100
